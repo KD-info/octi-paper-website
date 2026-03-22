@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Placeholder figure: system overview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#121a33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="70" y="80" width="1460" height="740" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+
+  <text x="120" y="150" font-family="Inter, system-ui" font-size="38" font-weight="700" fill="rgba(255,255,255,0.9)">Octi (placeholder): System Overview</text>
+  <text x="120" y="195" font-family="Inter, system-ui" font-size="22" fill="rgba(255,255,255,0.70)">LTI-embedded platform for collaborative writing analytics and scheduled feedback</text>
+
+  <!-- Boxes -->
+  <rect x="140" y="300" width="560" height="240" rx="22" fill="rgba(124,92,255,0.12)" stroke="rgba(124,92,255,0.55)"/>
+  <text x="180" y="360" font-family="Inter, system-ui" font-size="30" font-weight="700" fill="rgba(255,255,255,0.92)">OctiPad</text>
+  <text x="180" y="405" font-family="Inter, system-ui" font-size="22" fill="rgba(255,255,255,0.72)">Structured collaborative editor</text>
+  <text x="180" y="445" font-family="Inter, system-ui" font-size="20" fill="rgba(255,255,255,0.62)">Real-time group writing · Workspaces · Trace capture</text>
+
+  <rect x="900" y="300" width="560" height="240" rx="22" fill="rgba(45,212,191,0.10)" stroke="rgba(45,212,191,0.55)"/>
+  <text x="940" y="360" font-family="Inter, system-ui" font-size="30" font-weight="700" fill="rgba(255,255,255,0.92)">OctiFeedback</text>
+  <text x="940" y="405" font-family="Inter, system-ui" font-size="22" fill="rgba(255,255,255,0.72)">Scheduled text-based feedback</text>
+  <text x="940" y="445" font-family="Inter, system-ui" font-size="20" fill="rgba(255,255,255,0.62)">Process indicators · Task-aligned prompts</text>
+
+  <!-- Arrow -->
+  <path d="M720 420h160" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M855 390l60 30-60 30" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Footer note -->
+  <text x="120" y="760" font-family="Inter, system-ui" font-size="18" fill="rgba(255,255,255,0.55)">Replace with final diagram/figure when available.</text>
+</svg>

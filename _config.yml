@@ -1,0 +1,28 @@
+title: "Octi: Collaborative Writing Analytics & Feedback"
+description: >-
+  Octi is an LMS-integrated platform for collaborative writing analytics and scheduled feedback,
+  combining OctiPad (structured real-time collaborative writing) and OctiFeedback (text-based
+  process feedback) within a privacy-by-design approach.
+
+# GitHub Pages / Jekyll settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Keep these empty for local/root testing. For a project site, set:
+# url: "https://<user>.github.io"
+# baseurl: "/<repo>"
+url: ""
+baseurl: ""
+
+# Exclude common dev files
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - pnpm-lock.yaml
+  - README.md
