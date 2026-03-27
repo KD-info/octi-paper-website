@@ -93,7 +93,7 @@ OctiFeedback provides scheduled feedback aligned with collaborative processes. I
 
 <section class="figure-grid" aria-label="OctiFeedback screenshots">
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/feedback-indicators' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/feedback-indicators.png' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
     <figcaption>
       <strong>Figure 5.</strong> An overview of the current feedback indicators for analyzis.
     </figcaption>
