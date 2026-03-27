@@ -35,23 +35,23 @@ The following figures illustrate the collaborative editor in use, with structure
 
 <section id="figures" class="figure-grid" aria-label="OctiPad screenshots">
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/octipad-workspace-areas.png' | relative_url }}" alt="OctiPad workspace areas" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/octipad-workspace-areas.png' | relative_url }}" alt="Image of OctiPad workspace areas" loading="lazy" />
     <figcaption>
       <strong>Figure 2.</strong> OctiPad structured workspace layout.
     </figcaption>
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/student-task.png' | relative_url }}" alt="OctiPad students' task overview" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/student-task.png' | relative_url }}" alt="image of OctiPad students' task overview" loading="lazy" />
     <figcaption>
       <strong>Figure 3.</strong> General idea and overview of the students' task.
     </figcaption>
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/feedback-indicators.png' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
+    <img src="{{ '/assets/images/placeholder/oct-workspace-03.png' | relative_url }}" alt="Image of the component within moodle" loading="lazy" />
     <figcaption>
-      <strong>Figure 4.</strong> An overview of the current feedback indicators for analyzis.
+      <strong>Figure 4.</strong> Appearance of the component within moodle.
     </figcaption>
   </figure>
 </section>
