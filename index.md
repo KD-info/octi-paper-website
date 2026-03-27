@@ -49,7 +49,7 @@ The following figures illustrate the collaborative editor in use, with structure
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/feebdack-indicators.png' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/feedback-indicators.png' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
     <figcaption>
       <strong>Figure 4.</strong> An overview of the current feedback indicators for analyzis.
     </figcaption>
