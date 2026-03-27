@@ -42,7 +42,7 @@ The following figures illustrate the collaborative editor in use, with structure
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/student-task-first-trial.png' | relative_url }}" alt="OctiPad students' task overview" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/student-task.png' | relative_url }}" alt="OctiPad students' task overview" loading="lazy" />
     <figcaption>
       <strong>Figure 3.</strong> General idea and overview of the students' task.
     </figcaption>
