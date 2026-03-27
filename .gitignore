@@ -6,7 +6,6 @@ _site/
 # Bundler / Ruby
 .bundle/
 vendor/
-Gemfile
 
 # OS / editor noise
 .DS_Store
