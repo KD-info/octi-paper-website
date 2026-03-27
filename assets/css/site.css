@@ -27,8 +27,10 @@ body {
   margin: 0;
   scrollbar-gutter: stable;
   background:
-    radial-gradient(1200px 600px at 15% 0%, rgba(124, 92, 255, 0.25), transparent 60%),
-    radial-gradient(900px 500px at 80% 15%, rgba(45, 212, 191, 0.18), transparent 55%),
+    radial-gradient(1200px 900px at 15% 0%, rgba(124, 92, 255, 0.25), transparent 65%),
+    radial-gradient(900px 700px at 80% 15%, rgba(45, 212, 191, 0.18), transparent 60%),
+    radial-gradient(1000px 700px at 60% 65%, rgba(124, 92, 255, 0.15), transparent 60%),
+    radial-gradient(800px 600px at 20% 85%, rgba(45, 212, 191, 0.12), transparent 55%),
     var(--bg);
   color: var(--text);
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
