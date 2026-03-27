@@ -49,7 +49,7 @@ The following figures illustrate the collaborative editor in use, with structure
   <figure class="figure-card">
     <img src="{{ '/assets/images/octipad/octipad-workspace-areas.png' | relative_url }}" alt="Placeholder screenshot: OctiPad structured workspace (example 1)" loading="lazy" />
     <figcaption>
-      <strong>Figure 2.</strong> OctiPad structured workspace layout (placeholder).
+      <strong>Figure 2.</strong> OctiPad structured workspace layout.
     </figcaption>
   </figure>
 

@@ -25,6 +25,7 @@ body {
 
 body {
   margin: 0;
+  scrollbar-gutter: stable;
   background:
     radial-gradient(1200px 600px at 15% 0%, rgba(124, 92, 255, 0.25), transparent 60%),
     radial-gradient(900px 500px at 80% 15%, rgba(45, 212, 191, 0.18), transparent 55%),
@@ -300,13 +301,12 @@ li {
   z-index: 1000;
   background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(6px);
-  align-items: center;
-  justify-content: center;
   padding: 24px;
 }
 
 #lightbox.active {
-  display: flex;
+  display: grid;
+  place-items: center;
 }
 
 #lightbox-img {

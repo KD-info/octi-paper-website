@@ -73,15 +73,12 @@
           lbImg.src = img.src;
           lbImg.alt = img.alt;
           lightbox.classList.add('active');
-          document.body.style.overflow = 'hidden';
           lbClose.focus();
         });
       });
 
       function closeLightbox() {
         lightbox.classList.remove('active');
-        document.body.style.overflow = '';
-        lbImg.src = '';
       }
 
       lbClose.addEventListener('click', closeLightbox);
