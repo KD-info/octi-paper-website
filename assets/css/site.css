@@ -181,7 +181,7 @@ a.btn:hover {
   margin: 22px 0;
   padding: 18px 18px;
   border-radius: var(--radius);
-  background: rgba(11, 16, 32, 0.55);
+  background: rgba(11, 16, 32, 0.30);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.10);
@@ -235,7 +235,7 @@ li {
   grid-column: span 12;
   padding: 12px;
   border-radius: var(--radius);
-  background: rgba(11, 16, 32, 0.55);
+  background: rgba(11, 16, 32, 0.30);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.10);
