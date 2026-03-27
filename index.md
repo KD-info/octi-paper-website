@@ -35,23 +35,23 @@ The following figures illustrate the collaborative editor in use, with structure
 
 <section id="figures" class="figure-grid" aria-label="OctiPad screenshots">
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/octipad-workspace-areas.png' | relative_url }}" alt="Placeholder screenshot: OctiPad structured workspace (example 1)" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/octipad-workspace-areas.png' | relative_url }}" alt="OctiPad workspace areas" loading="lazy" />
     <figcaption>
       <strong>Figure 2.</strong> OctiPad structured workspace layout.
     </figcaption>
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/placeholders/octipad-workspace-02.svg' | relative_url }}" alt="Placeholder screenshot: OctiPad structured workspace (example 2)" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/student-task-first-trial.svg' | relative_url }}" alt="OctiPad students' task overview" loading="lazy" />
     <figcaption>
-      <strong>Figure 3.</strong> Collaborative writing view showing sectioned workspace and group activity (placeholder).
+      <strong>Figure 3.</strong> General idea and overview of the students' task.
     </figcaption>
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/placeholders/octipad-workspace-03.svg' | relative_url }}" alt="Placeholder screenshot: OctiPad structured workspace (example 3)" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/feebdack-indicators.svg' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
     <figcaption>
-      <strong>Figure 4.</strong> Example of structured prompts and task guidance within the editor (placeholder).
+      <strong>Figure 4.</strong> An overview of the current feedback indicators for analyzis.
     </figcaption>
   </figure>
 </section>
