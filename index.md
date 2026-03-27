@@ -62,7 +62,7 @@ OctiPad integrates collaboration affordances with structure. The workspaces prov
 
 <section class="figure-grid" aria-label="OctiPad demonstration video">
   <figure class="figure-card figure-wide">
-    <video controls controlsList="nodownload" width="100%" preload="metadata">
+    <video controls controlsList="nodownload" width="100%" preload="metadata" poster="{{ '/assets/video/octipad-banner.svg' | relative_url }}">
       <source src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}" type="video/mp4">
       <track kind="subtitles" src="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}" srclang="de" label="Deutsch" default>
       Your browser does not support the video element.
