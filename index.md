@@ -12,18 +12,6 @@ Octi is an LMS-integrated platform for collaborative writing analytics and feedb
 
 Together, these components capture fine-grained traces of writing and editing activity and derive task-aligned indicators (e.g., activation of prior knowledge, coordination and organization, and individual and group contributions) within a privacy-by-design approach.
 
-<div class="callout">
-  <div class="callout-title">Access</div>
-  <p class="callout-text">
-    OctiPad can be accessed as a standalone demonstration instance.
-    The same editor can also be embedded into learning management systems via LTI.
-  </p>
-  <p class="callout-actions">
-    <a class="btn btn-primary" href="https://octipad.s.studiumdigitale.uni-frankfurt.de/" target="_blank" rel="noopener noreferrer">Open OctiPad (Standalone)</a>
-    <a class="btn btn-secondary" href="#figures">Jump to Figures</a>
-  </p>
-</div>
-
 ---
 
 ## System overview
@@ -71,6 +59,18 @@ The following figures illustrate the collaborative editor in use, with structure
 ### What the reader should notice
 
 OctiPad integrates collaboration affordances with structure. The workspaces provide a shared frame for organizing content and coordinating contributions, while the system logs fine-grained editing and writing traces for subsequent analytics.
+
+<div class="callout">
+  <div class="callout-title">Access</div>
+  <p class="callout-text">
+    OctiPad can be accessed as a standalone demonstration instance.
+    The same editor can also be embedded into learning management systems via LTI.
+  </p>
+  <p class="callout-actions">
+    <a class="btn btn-primary" href="https://octipad.s.studiumdigitale.uni-frankfurt.de/" target="_blank" rel="noopener noreferrer">Open OctiPad (Standalone)</a>
+    <a class="btn btn-secondary" href="#figures">Jump to Figures</a>
+  </p>
+</div>
 
 ---
 
