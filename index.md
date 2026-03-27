@@ -28,7 +28,7 @@ Together, these components capture fine-grained traces of writing and editing ac
 
 ## System overview
 
-Octi is designed to support both instructional use and research instrumentation. In the experimental setting, learners collaborate in structured workspaces (OctiPad), while scheduled process feedback (OctiFeedback) provides textual guidance aligned with the task and collaboration goals.
+Octi is designed to support both instructional use and research instrumentation. In the research setting, learners collaborate in structured workspaces (OctiPad), while scheduled process feedback (OctiFeedback) provides textual guidance aligned with the task and collaboration goals.
 
 <section class="figure-grid" aria-label="System overview figure">
   <figure class="figure-card figure-wide">
@@ -41,9 +41,9 @@ Octi is designed to support both instructional use and research instrumentation.
 
 ---
 
-## OctiPad during the experiment
+## OctiPad during the research
 
-The following figures illustrate the collaborative editor in use, with structured workspaces that guide group activity and support real-time coordination. The screenshots are placeholders and will be replaced with experiment images.
+The following figures illustrate the collaborative editor in use, with structured workspaces that guide group activity and support real-time coordination. The screenshots are placeholders and will be replaced with research images.
 
 <section id="figures" class="figure-grid" aria-label="OctiPad screenshots">
   <figure class="figure-card">

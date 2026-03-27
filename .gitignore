@@ -16,3 +16,6 @@ Thumbs.db
 
 # VS Code
 .vscode/
+
+# Local chat transcript (do not publish)
+CHAT_EXPORT.md
