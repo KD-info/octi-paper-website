@@ -32,7 +32,7 @@ Octi is designed to support both instructional use and research instrumentation.
 
 <section class="figure-grid" aria-label="System overview figure">
   <figure class="figure-card figure-wide">
-    <img src="{{ '/assets/images/placeholders/fig-01-system-overview.svg' | relative_url }}" alt="Placeholder figure: Octi system overview" loading="lazy" />
+    <img src="{{ '/assets/images/placeholders/fig-01-system-overview.png' | relative_url }}" alt="Placeholder figure: Octi system overview" loading="lazy" />
     <figcaption>
       <strong>Figure 1.</strong> Conceptual overview of Octi, comprising OctiPad (structured collaborative writing) and OctiFeedback (scheduled feedback), embedded via LTI.
     </figcaption>
