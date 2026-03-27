@@ -60,6 +60,19 @@ The following figures illustrate the collaborative editor in use, with structure
 
 OctiPad integrates collaboration affordances with structure. The workspaces provide a shared frame for organizing content and coordinating contributions, while the system logs fine-grained editing and writing traces for subsequent analytics.
 
+<section class="figure-grid" aria-label="OctiPad demonstration video">
+  <figure class="figure-card figure-wide">
+    <video controls width="100%" preload="metadata">
+      <source src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}" type="video/mp4">
+      <track kind="subtitles" src="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}" srclang="de" label="Deutsch" default>
+      Your browser does not support the video element.
+    </video>
+    <figcaption>
+      <strong>Video 1.</strong> Walkthrough of OctiPad's core features (in German).
+    </figcaption>
+  </figure>
+</section>
+
 <div class="callout">
   <div class="callout-title">Access</div>
   <p class="callout-text">
