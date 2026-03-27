@@ -49,7 +49,7 @@ The following figures illustrate the collaborative editor in use, with structure
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/placeholder/oct-workspace-03.svg' | relative_url }}" alt="Image of the component within moodle" loading="lazy" />
+    <img src="{{ '/assets/images/placeholders/oct-workspace-03.svg' | relative_url }}" alt="Image of the component within moodle" loading="lazy" />
     <figcaption>
       <strong>Figure 4.</strong> Appearance of the component within moodle.
     </figcaption>
