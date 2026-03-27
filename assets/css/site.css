@@ -253,22 +253,13 @@ li {
   background: rgba(0, 0, 0, 0.15);
 }
 
-.video-wrapper {
-  position: relative;
+.figure-card video {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 12px;
-  overflow: hidden;
-  background: #000;
-}
-
-.video-wrapper video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
   display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #000;
 }
 
 .figure-card figcaption {
