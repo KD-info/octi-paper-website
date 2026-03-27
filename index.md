@@ -42,14 +42,14 @@ The following figures illustrate the collaborative editor in use, with structure
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/student-task-first-trial.svg' | relative_url }}" alt="OctiPad students' task overview" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/student-task-first-trial.png' | relative_url }}" alt="OctiPad students' task overview" loading="lazy" />
     <figcaption>
       <strong>Figure 3.</strong> General idea and overview of the students' task.
     </figcaption>
   </figure>
 
   <figure class="figure-card">
-    <img src="{{ '/assets/images/octipad/feebdack-indicators.svg' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
+    <img src="{{ '/assets/images/octipad/feebdack-indicators.png' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
     <figcaption>
       <strong>Figure 4.</strong> An overview of the current feedback indicators for analyzis.
     </figcaption>
