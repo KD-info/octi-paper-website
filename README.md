@@ -2,6 +2,10 @@
 
 This repository contains a single-page, markdown-first website for a research paper demonstration of **Octi**.
 
+## Use of images and screenshots
+
+Unless explicitly stated otherwise, **all screenshots, figures, and images contained in this repository and/or displayed by the generated website are provided for viewing in the context of the Octi demonstration only**. They may not be reused, redistributed, or republished (in whole or in part) without prior written permission from the project owners and/or respective rights holders.
+
 The page presents:
 - A placeholder logo (to be replaced with the final Octi logo)
 - A button linking to the standalone OctiPad instance
