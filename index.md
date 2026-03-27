@@ -68,7 +68,7 @@ OctiPad integrates collaboration affordances with structure. The workspaces prov
       Your browser does not support the video element.
     </video>
     <figcaption>
-      <strong>Video 1.</strong> Walkthrough of OctiPad's core features (currently in German).
+      <strong>Video 1.</strong> Walkthrough of OctiPad's core features (currently in German). || Later demonstration of a walkthrough through a moodle course with OctiPad and OctiFeedback, showing the student perspective and the feedback process.
     </figcaption>
   </figure>
 </section>
