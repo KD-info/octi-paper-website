@@ -12,8 +12,8 @@ kramdown:
 # Keep these empty for local/root testing. For a project site, set:
 # url: "https://<user>.github.io"
 # baseurl: "/<repo>"
-url: ""
-baseurl: ""
+url: "https://KD-info.github.io"
+baseurl: "/octi-paper-website"
 
 # Exclude common dev files
 exclude:
