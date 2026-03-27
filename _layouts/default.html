@@ -68,6 +68,12 @@
       var lbImg = document.getElementById('lightbox-img');
       var lbClose = document.getElementById('lightbox-close');
 
+      document.querySelectorAll('.figure-card video').forEach(function (video) {
+        video.addEventListener('loadedmetadata', function () {
+          video.style.aspectRatio = video.videoWidth + ' / ' + video.videoHeight;
+        });
+      });
+
       document.querySelectorAll('.figure-card img').forEach(function (img) {
         img.addEventListener('click', function () {
           lbImg.src = img.src;
