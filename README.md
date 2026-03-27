@@ -8,6 +8,10 @@ The page presents:
 - Placeholder figures for OctiPad structured workspaces and OctiFeedback examples
 - Academic, figure-caption style explanatory text blocks between images
 
+## Project notes
+- `PROJECT_LOG.md` — decisions, structure, and publishing notes
+- `CHAT_EXPORT.md` — paste/exported chat transcript for continuity
+
 ## Repository structure
 - `index.md` — the single-page content
 - `_layouts/default.html` — minimal layout with header + footer
