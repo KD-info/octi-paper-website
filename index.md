@@ -5,18 +5,16 @@ title: Demonstration Website
 
 # Octi: Supplementary Demo
 
-Octi is an LMS-integrated platform for collaborative writing analytics and feedback that serves both as a teaching tool and a research environment in higher education. Octi can be embedded into learning management systems via the Learning Tools Interoperability (LTI) standard and currently comprises two components:
+Octi is an LMS-integrated platform for collaborative writing analytics and feedback. Embedded with LTI, it combines two components within a privacy-by-design approach:
 
 - **OctiPad**: a collaborative editor with structured workspaces for real-time group writing.
 - **OctiFeedback**: a component that generates scheduled, text-based feedback on collaborative processes.
 
-Together, these components capture fine-grained traces of writing and editing activity and derive task-aligned indicators (e.g., activation of prior knowledge, coordination and organization, and individual and group contributions) within a privacy-by-design approach.
-
 ---
 
-## System overview
+## System Overview
 
-Octi is designed to support both instructional use and research instrumentation. In the research setting, learners collaborate in structured workspaces (OctiPad), while scheduled process feedback (OctiFeedback) provides textual guidance aligned with the task and collaboration goals.
+Octi is designed to support both instructional use and research-oriented data collection. In the research setting, learners collaborate in structured workspaces in OctiPad, while OctiFeedback provides scheduled text-based guidance aligned with the task and collaboration goals.
 
 <section class="figure-grid" aria-label="System overview figure">
   <figure class="figure-card figure-wide">
