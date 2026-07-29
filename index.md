@@ -126,22 +126,21 @@ If you would like, this section can be extended with a short description of the 
 
 ## Paper, citation, and contact
 
-**Paper (placeholder):** [Link to the paper (to be added)](#)
+**Paper (placeholder, revealed after paper publication):** [Link to the paper (to be added)](#)
 
-**Recommended citation (placeholder):**
+**Recommended citation (placeholder, revealed after paper publication):**
 
-> Author(s). (Year). *Title of the paper*. Venue/Journal. DOI/URL.
+> Author(s). (Year). *From Edits to Insights: Octi, a Learning Analytics Tool for Collaborative Writing in an LMS*. Venue/Journal. DOI/URL.
 
-**BibTeX (placeholder):**
+**BibTeX (placeholder, revealed after paper publication):**
 
 ```bibtex
 @inproceedings{octi_placeholder_2026,
-  title   = {Title of the paper (placeholder)},
+  title   = {From Edits to Insights: Octi, a Learning Analytics Tool for Collaborative Writing in an LMS},
   author  = {Author, First and Author, Second},
   year    = {2026},
-  booktitle = {Proceedings/Venue (placeholder)},
   url     = {https://example.org/paper-link-placeholder},
 }
 ```
 
-**Contact (placeholder):** Name, Institution — `name.surname@institution.example`
+**Contact (placeholder, revealed after paper publication):** Name, Institution — `name.surname@institution.example`
