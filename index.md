@@ -130,13 +130,13 @@ If you would like, this section can be extended with a short description of the 
 
 ## Paper, citation, and contact
 
-**Paper (placeholder, revealed after paper publication):** [Link to the paper (to be added)](#)
+**Paper (placeholder,  available after publication):** [Link to the paper (to be added)](#)
 
-**Recommended citation (placeholder, revealed after paper publication):**
+**Recommended citation (placeholder, available after publication):**
 
 > Author(s). (Year). *From Edits to Insights: Octi, a Learning Analytics Tool for Collaborative Writing in an LMS*. Venue/Journal. DOI/URL.
 
-**BibTeX (placeholder, revealed after paper publication):**
+**BibTeX (placeholder,  available after publication):**
 
 ```bibtex
 @inproceedings{octi_placeholder_2026,
@@ -147,4 +147,4 @@ If you would like, this section can be extended with a short description of the 
 }
 ```
 
-**Contact (placeholder, revealed after paper publication):** Name, Institution — `name.surname@institution.example`
+**Contact (placeholder,  available after publication):** Name, Institution — `name.surname@institution.example`
