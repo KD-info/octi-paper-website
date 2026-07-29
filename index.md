@@ -27,7 +27,7 @@ Octi is designed to support both instructional use and research-oriented data co
 
 ---
 
-## OctiPad during the research
+## OctiPad in use
 
 The following figures illustrate the collaborative editor in use, with structured workspaces that guide group activity and support real-time coordination. The screenshots are placeholders and will be replaced with research images.
 
@@ -89,7 +89,7 @@ OctiPad integrates collaboration affordances with structure. The workspaces prov
 
 ---
 
-## OctiFeedback: scheduled, text-based process feedback
+## OctiFeedback in use
 
 OctiFeedback provides scheduled feedback aligned with collaborative processes. Indicators can be computed from interaction traces to represent, for example, activation of prior knowledge, coordination and organization, and individual and group contributions. The examples below illustrate how feedback messages are presented.
 
