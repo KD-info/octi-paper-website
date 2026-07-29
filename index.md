@@ -20,7 +20,7 @@ Octi is designed to support both instructional use and research instrumentation.
 
 <section class="figure-grid" aria-label="System overview figure">
   <figure class="figure-card figure-wide">
-    <img src="{{ '/assets/images/general/fig-01-system-overview.png' | relative_url }}" alt="Placeholder figure: Octi system overview" loading="lazy" />
+    <img src="{{ '/assets/images/general/system-overview.png' | relative_url }}" alt="Placeholder figure: Octi system overview" loading="lazy" />
     <figcaption>
       <strong>Figure 1.</strong> Overview of Octi’s Moodle integration and data flow. The figure illustrates the two components, OctiPad and OctiFeedback, and their integration into a Moodle course. The arrows indicate the flow of data from the collaborative writing activity to the feedback generation and analytics processes.
     </figcaption>
