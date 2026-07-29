@@ -83,9 +83,9 @@ OctiPad integrates collaboration affordances with structure. The workspaces prov
   <p class="callout-text callout-notice">
     This demo link is temporarily disabled to avoid revealing the authors' identities during peer review.
   </p>
-  <p class="callout-actions" hidden>
-    <a class="btn btn-primary" href="https://octipad.s.studiumdigitale.uni-frankfurt.de/" target="_blank" rel="noopener noreferrer">Open OctiPad (Standalone)</a>
-    <a class="btn btn-secondary" href="#figures">Jump to Figures</a>
+  <p class="callout-actions">
+    <a class="btn btn-primary btn-disabled" aria-disabled="true" tabindex="-1">Open OctiPad (Standalone)</a>
+    <a class="btn btn-secondary btn-disabled" aria-disabled="true" tabindex="-1">Jump to Figures</a>
   </p>
 </div>
 

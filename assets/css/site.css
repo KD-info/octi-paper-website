@@ -217,6 +217,17 @@ a.btn:hover {
   margin-top: 12px;
 }
 
+a.btn-disabled,
+a.btn-disabled:hover {
+  opacity: 0.38;
+  cursor: not-allowed;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.10);
+  color: var(--faint);
+  filter: grayscale(1);
+}
+
 hr {
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.10);
