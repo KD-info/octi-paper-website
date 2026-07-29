@@ -118,14 +118,6 @@ OctiFeedback provides scheduled feedback aligned with collaborative processes. I
 
 ---
 
-## Privacy-by-design and research use
-
-Octi is developed under a privacy-by-design approach. Data capture and indicator computation are aligned with research questions and educational goals, while supporting responsible instrumentation of collaborative learning processes.
-
-If you would like, this section can be extended with a short description of the study context (participants, task, duration) and a brief overview of the analytics pipeline.
-
----
-
 ## Paper, citation, and contact
 
 **Paper (placeholder,  available after publication):** [Link to the paper (to be added)](#)
