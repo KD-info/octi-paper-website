@@ -203,6 +203,13 @@ a.btn:hover {
   color: var(--muted);
 }
 
+.callout-notice {
+  color: rgba(251, 191, 36, 0.92);
+  border-left: 3px solid rgba(251, 191, 36, 0.55);
+  padding-left: 10px;
+  font-style: italic;
+}
+
 .callout-actions {
   display: flex;
   flex-wrap: wrap;

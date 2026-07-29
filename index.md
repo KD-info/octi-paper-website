@@ -77,9 +77,13 @@ OctiPad integrates collaboration affordances with structure. The workspaces prov
   <div class="callout-title">Access</div>
   <p class="callout-text">
     OctiPad can be accessed as a standalone demonstration instance.
-    The same editor can also be embedded into learning management systems via LTI.
+    The same editor can also be embedded into learning management systems via LTI. 
+    Please note that the demonstration instance is not connected to a learning management system and does not provide any feedback messages.
   </p>
-  <p class="callout-actions">
+  <p class="callout-text callout-notice">
+    This demo link is temporarily disabled to avoid revealing the authors' identities during peer review.
+  </p>
+  <p class="callout-actions" hidden>
     <a class="btn btn-primary" href="https://octipad.s.studiumdigitale.uni-frankfurt.de/" target="_blank" rel="noopener noreferrer">Open OctiPad (Standalone)</a>
     <a class="btn btn-secondary" href="#figures">Jump to Figures</a>
   </p>
