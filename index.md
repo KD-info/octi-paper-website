@@ -3,7 +3,7 @@ layout: default
 title: Demonstration Website
 ---
 
-# Octi: LMS-integrated Collaborative Writing Analytics and Feedback
+# Octi: Supplementary Demo
 
 Octi is an LMS-integrated platform for collaborative writing analytics and feedback that serves both as a teaching tool and a research environment in higher education. Octi can be embedded into learning management systems via the Learning Tools Interoperability (LTI) standard and currently comprises two components:
 
