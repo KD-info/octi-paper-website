@@ -171,7 +171,7 @@ OctiFeedback provides scheduled feedback aligned with collaborative processes. I
     OctiFeedback cannot be accessed as a standalone instance, because it depends on collaborative writing activity in multiple OctiPad workspaces within a course context (e.g., an LMS such as Moodle). Instead, a demonstration video is provided to illustrate how OctiFeedback appears and behaves when integrated into an actual course.
   </p>
   <p class="callout-actions">
-    <a class="btn btn-primary" href="octipad-feedback">Jump to Video</a>
+    <a class="btn btn-primary" href="#octipad-feedback">Jump to Video</a>
   </p>
 </div>
 
