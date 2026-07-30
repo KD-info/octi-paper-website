@@ -27,6 +27,34 @@ Octi is designed to support both instructional use and research-oriented data co
 
 ---
 
+## OctiPad and OctiFeedback in Moodle
+
+<section class="figure-grid" aria-label="OctiPad and OctiFeedback in Moodle figure and video">
+  <figure class="figure-card figure-wide">
+    <img src="{{ '/assets/images/general/octipad-octifeedback-moodle.png' | relative_url }}" alt="Placeholder figure: OctiPad and OctiFeedback in Moodle" loading="lazy" />
+    <figcaption>
+      <strong>Figure 2.</strong> Illustration of OctiPad and OctiFeedback embedded within a Moodle course. The figure shows how learners access the collaborative writing activity through the LMS, while the feedback component provides scheduled guidance based on interaction traces.
+    </figcaption>
+  </figure>
+  <figure class="figure-card video-card"
+        data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
+        data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
+    <div class="video-thumb">
+      <img src="{{ '/assets/video/octipad-banner.svg' | relative_url }}" alt="OctiPad walkthrough video thumbnail" />
+      <div class="video-play-btn" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+          <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.52)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+          <polygon points="33,25 60,40 33,55" fill="white"/>
+        </svg>
+      </div>
+    </div>
+    <figcaption>
+      <strong>Video 1.</strong> Walkthrough of OctiPad's core features (currently in German). || Later demonstration of a walkthrough through a moodle course with OctiPad and OctiFeedback, showing the student perspective and the feedback process.
+    </figcaption>
+  </figure>
+</section>
+
+
 ## OctiPad in use
 
 The following figures illustrate the collaborative editor in use, with structured workspaces that guide group activity and support real-time coordination. The screenshots are placeholders and will be replaced with research images.
@@ -114,6 +142,25 @@ OctiFeedback provides scheduled feedback aligned with collaborative processes. I
     <img src="{{ '/assets/images/placeholders/octifeedback-03.svg' | relative_url }}" alt="Placeholder screenshot: OctiFeedback message example (3)" loading="lazy" />
     <figcaption>
       <strong>Figure 7.</strong> Example feedback message related to activation of prior knowledge (placeholder).
+    </figcaption>
+  </figure>
+</section>
+
+<section id="octifeedback-video" class="figure-grid figure-grid-solo" aria-label="OctiFeedback video">
+  <figure class="figure-card video-card"
+          data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
+          data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
+    <div class="video-thumb">
+      <img src="{{ '/assets/video/octifeedback-banner.png' | relative_url }}" alt="OctiFeedback walkthrough video thumbnail" />
+      <div class="video-play-btn" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+          <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.52)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+          <polygon points="33,25 60,40 33,55" fill="white"/>
+        </svg>
+      </div>
+    </div>
+    <figcaption>
+      <strong>Video 1.</strong> Walkthrough of OctiFeedback's core features. || Later demonstration of a walkthrough through a moodle course with OctiPad and OctiFeedback, showing the student perspective and the feedback process.
     </figcaption>
   </figure>
 </section>
