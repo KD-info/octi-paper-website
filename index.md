@@ -150,7 +150,8 @@ OctiFeedback provides scheduled feedback aligned with collaborative processes. I
   <figure class="figure-card video-card"
           data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
           data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
-    <div class="video-thumb">edback/octifeedback-banner.png' | relative_url }}" alt="OctiFeedback walkthrough video thumbnail" />
+    <div class="video-thumb">
+      <img src="{{ '/assets/images/octifeedback/octifeedback-banner.png' | relative_url }}" alt="OctiFeedback walkthrough video thumbnail" />
       <div class="video-play-btn" aria-hidden="true">
         <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56">
           <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.52)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
