@@ -297,6 +297,10 @@ li {
   .figure-wide {
     grid-column: span 12;
   }
+
+  .figure-grid-solo .figure-card {
+    grid-column: 5 / 9;
+  }
 }
 
 .site-footer {

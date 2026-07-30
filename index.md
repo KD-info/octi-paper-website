@@ -31,7 +31,7 @@ Octi is designed to support both instructional use and research-oriented data co
 
 The following figures illustrate the collaborative editor in use, with structured workspaces that guide group activity and support real-time coordination. The screenshots are placeholders and will be replaced with research images.
 
-<section id="octipad-figures" class="figure-grid" aria-label="OctiPad screenshots and video">
+<section id="octipad-figures" class="figure-grid" aria-label="OctiPad screenshots">
   <figure class="figure-card">
     <img src="{{ '/assets/images/octipad/octipad-workspace-areas.png' | relative_url }}" alt="Image of OctiPad workspace areas" loading="lazy" />
     <figcaption>
@@ -52,7 +52,9 @@ The following figures illustrate the collaborative editor in use, with structure
       <strong>Figure 4.</strong> Appearance of the component within moodle.
     </figcaption>
   </figure>
+</section>
 
+<section id="octipad-video" class="figure-grid figure-grid-solo" aria-label="OctiPad video">
   <figure class="figure-card video-card"
           data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
           data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
@@ -93,7 +95,7 @@ The following figures illustrate the collaborative editor in use, with structure
 
 OctiFeedback provides scheduled feedback aligned with collaborative processes. Indicators can be computed from interaction traces to represent, for example, activation of prior knowledge, coordination and organization, and individual and group contributions. The examples below illustrate how feedback messages are presented.
 
-<section class="figure-grid" aria-label="OctiFeedback screenshots">
+<section id="octifeedback-figures" class="figure-grid" aria-label="OctiFeedback screenshots">
   <figure class="figure-card">
     <img src="{{ '/assets/images/octipad/feedback-indicators.png' | relative_url }}" alt="Feedback indicators explained" loading="lazy" />
     <figcaption>
