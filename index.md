@@ -31,7 +31,7 @@ Octi is designed to support both instructional use and research-oriented data co
 
 The following figures illustrate the collaborative editor in use, with structured workspaces that guide group activity and support real-time coordination. The screenshots are placeholders and will be replaced with research images.
 
-<section id="figures" class="figure-grid" aria-label="OctiPad screenshots and video">
+<section id="octipad-figures" class="figure-grid" aria-label="OctiPad screenshots and video">
   <figure class="figure-card">
     <img src="{{ '/assets/images/octipad/octipad-workspace-areas.png' | relative_url }}" alt="Image of OctiPad workspace areas" loading="lazy" />
     <figcaption>
@@ -83,7 +83,7 @@ The following figures illustrate the collaborative editor in use, with structure
   </p>
   <p class="callout-actions">
     <a class="btn btn-primary btn-disabled" aria-disabled="true" tabindex="-1">Open OctiPad (Standalone) - disabled</a>
-    <a class="btn btn-secondary" href="#figures">Jump to Figures</a>
+    <!-- <a class="btn btn-secondary" href="#octipad-figures">Jump to Figures</a> -->
   </p>
 </div>
 
