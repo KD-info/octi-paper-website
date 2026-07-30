@@ -40,7 +40,7 @@ Octi is designed to support both instructional use and research-oriented data co
         data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
         data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
     <div class="video-thumb">
-      <img src="{{ '/assets/video/octipad-banner.svg' | relative_url }}" alt="OctiPad walkthrough video thumbnail" />
+      <img src="{{ '/assets/images/general/octi-banner.png' | relative_url }}" alt="OctiPad walkthrough video thumbnail" />
       <div class="video-play-btn" aria-hidden="true">
         <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56">
           <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.52)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
