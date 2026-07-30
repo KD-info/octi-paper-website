@@ -302,8 +302,8 @@ li {
     grid-column: span 6;
   }
 
-  .figure-grid-solo .figure-card {
-    grid-column: 5 / 9;
+  .figure-grid-solo .video-card {
+    grid-column: 4 / 10;
   }
 }
 
