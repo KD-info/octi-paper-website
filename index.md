@@ -59,12 +59,18 @@ The following figures illustrate the collaborative editor in use, with structure
 OctiPad integrates collaboration affordances with structure. The workspaces provide a shared frame for organizing content and coordinating contributions, while the system logs fine-grained editing and writing traces for subsequent analytics.
 
 <section class="figure-grid" aria-label="OctiPad demonstration video">
-  <figure class="figure-card figure-wide">
-    <video controls controlsList="nodownload" width="100%" preload="metadata" poster="{{ '/assets/video/octipad-banner.svg' | relative_url }}">
-      <source src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}" type="video/mp4">
-      <track kind="subtitles" src="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}" srclang="de" label="Deutsch" default>
-      Your browser does not support the video element.
-    </video>
+  <figure class="figure-card video-card"
+          data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
+          data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
+    <div class="video-thumb">
+      <img src="{{ '/assets/video/octipad-banner.svg' | relative_url }}" alt="OctiPad walkthrough video thumbnail" />
+      <div class="video-play-btn" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+          <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.52)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+          <polygon points="33,25 60,40 33,55" fill="white"/>
+        </svg>
+      </div>
+    </div>
     <figcaption>
       <strong>Video 1.</strong> Walkthrough of OctiPad's core features (currently in German). || Later demonstration of a walkthrough through a moodle course with OctiPad and OctiFeedback, showing the student perspective and the feedback process.
     </figcaption>

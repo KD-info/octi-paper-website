@@ -56,27 +56,47 @@
       </div>
     </div>
   </footer>
-  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Media preview">
     <button id="lightbox-close" aria-label="Close preview">&times;</button>
     <img id="lightbox-img" src="" alt="" />
+    <video id="lightbox-video" controls controlsList="nodownload" preload="metadata"></video>
   </div>
 
   <script>
     (function () {
       var lightbox = document.getElementById('lightbox');
       var lbImg = document.getElementById('lightbox-img');
+      var lbVideo = document.getElementById('lightbox-video');
       var lbClose = document.getElementById('lightbox-close');
 
-      document.querySelectorAll('.figure-card video').forEach(function (video) {
-        video.addEventListener('loadedmetadata', function () {
-          video.style.aspectRatio = video.videoWidth + ' / ' + video.videoHeight;
-        });
-      });
-
-      document.querySelectorAll('.figure-card img').forEach(function (img) {
+      // Image lightbox
+      document.querySelectorAll('.figure-card:not(.video-card) img').forEach(function (img) {
         img.addEventListener('click', function () {
           lbImg.src = img.src;
           lbImg.alt = img.alt;
+          lightbox.classList.remove('is-video');
+          lightbox.classList.add('active');
+          lbClose.focus();
+        });
+      });
+
+      // Video card lightbox
+      document.querySelectorAll('.video-card').forEach(function (card) {
+        card.addEventListener('click', function () {
+          var src = card.dataset.videoSrc;
+          var trackSrc = card.dataset.videoTrack;
+          lbVideo.innerHTML = '<source src="' + src + '" type="video/mp4">';
+          if (trackSrc) {
+            var track = document.createElement('track');
+            track.kind = 'subtitles';
+            track.src = trackSrc;
+            track.srclang = 'de';
+            track.label = 'Deutsch';
+            track.default = true;
+            lbVideo.appendChild(track);
+          }
+          lbVideo.load();
+          lightbox.classList.add('is-video');
           lightbox.classList.add('active');
           lbClose.focus();
         });
@@ -84,6 +104,9 @@
 
       function closeLightbox() {
         lightbox.classList.remove('active');
+        lightbox.classList.remove('is-video');
+        lbVideo.pause();
+        lbVideo.innerHTML = '';
       }
 
       lbClose.addEventListener('click', closeLightbox);

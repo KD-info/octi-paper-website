@@ -326,6 +326,38 @@ li {
   cursor: zoom-in;
 }
 
+.video-card img {
+  cursor: pointer;
+}
+
+.video-card {
+  cursor: pointer;
+}
+
+.video-thumb {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-play-btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+
+.video-card:hover .video-play-btn svg circle {
+  fill: rgba(0, 0, 0, 0.7);
+}
+
+.video-card:hover .video-play-btn svg {
+  transform: scale(1.08);
+  transition: transform 0.15s;
+}
+
 #lightbox {
   display: none;
   position: fixed;
@@ -369,4 +401,20 @@ li {
 
 #lightbox-close:hover {
   background: rgba(255, 255, 255, 0.18);
+}
+
+#lightbox-video {
+  display: none;
+  max-width: min(960px, 90vw);
+  max-height: 80vh;
+  border-radius: var(--radius);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+}
+
+#lightbox.is-video #lightbox-img {
+  display: none;
+}
+
+#lightbox.is-video #lightbox-video {
+  display: block;
 }
