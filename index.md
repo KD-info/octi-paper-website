@@ -31,7 +31,7 @@ Octi is designed to support both instructional use and research-oriented data co
 
 The following figures illustrate the collaborative editor in use, with structured workspaces that guide group activity and support real-time coordination. The screenshots are placeholders and will be replaced with research images.
 
-<section id="figures" class="figure-grid" aria-label="OctiPad screenshots">
+<section id="figures" class="figure-grid" aria-label="OctiPad screenshots and video">
   <figure class="figure-card">
     <img src="{{ '/assets/images/octipad/octipad-workspace-areas.png' | relative_url }}" alt="Image of OctiPad workspace areas" loading="lazy" />
     <figcaption>
@@ -52,13 +52,7 @@ The following figures illustrate the collaborative editor in use, with structure
       <strong>Figure 4.</strong> Appearance of the component within moodle.
     </figcaption>
   </figure>
-</section>
 
-### What the reader should notice
-
-OctiPad integrates collaboration affordances with structure. The workspaces provide a shared frame for organizing content and coordinating contributions, while the system logs fine-grained editing and writing traces for subsequent analytics.
-
-<section class="figure-grid" aria-label="OctiPad demonstration video">
   <figure class="figure-card video-card"
           data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
           data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
