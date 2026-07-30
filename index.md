@@ -30,13 +30,13 @@ Octi is designed to support both instructional use and research-oriented data co
 ## OctiPad and OctiFeedback in Moodle
 
 <section class="figure-grid" aria-label="OctiPad and OctiFeedback in Moodle figure and video">
-  <figure class="figure-card figure-wide">
+  <figure class="figure-card figure-half">
     <img src="{{ '/assets/images/general/octipad-octifeedback-moodle.png' | relative_url }}" alt="Placeholder figure: OctiPad and OctiFeedback in Moodle" loading="lazy" />
     <figcaption>
       <strong>Figure 2.</strong> Illustration of OctiPad and OctiFeedback embedded within a Moodle course. The figure shows how learners access the collaborative writing activity through the LMS, while the feedback component provides scheduled guidance based on interaction traces.
     </figcaption>
   </figure>
-  <figure class="figure-card video-card"
+  <figure class="figure-card figure-half video-card"
         data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
         data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
     <div class="video-thumb">
