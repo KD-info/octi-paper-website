@@ -17,7 +17,7 @@ title: Demonstration Website
 [Tool] is designed to support both instructional use and research-oriented data collection. In the research setting, learners collaborate in structured workspaces in [Tool]Pad, while [Tool]Feedback provides scheduled text-based guidance aligned with the task and collaboration goals.
 
 <section class="figure-grid" aria-label="System overview figure">
-  <figure class="figure-card figure-wide" style="max-width: 50%; margin: 0 auto;">
+  <figure class="figure-card figure-wide" style="max-width: 70%; margin: 0 auto;">
     <img src="{{ '/assets/images/general/octi-overview-current-placeholder.png' | relative_url }}" alt="Placeholder figure: [Tool] system overview" loading="lazy" />
     <figcaption>
       <strong>Figure 1.</strong> Overview of the current implementation of [Tool], including its Moodle integration and data flow. The figure illustrates the two components, [Tool]Pad and [Tool]Feedback, and their integration into a Moodle course. The arrows indicate the flow of data from the collaborative writing activity to the feedback generation and analytics processes.
