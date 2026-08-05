@@ -48,7 +48,7 @@ title: Demonstration Website
       </div>
     </div>
     <figcaption>
-      <strong>Video 1.</strong> Walkthrough of [Tool]Pad's core features (currently in German). || Later demonstration of a walkthrough through a moodle course with [Tool]Pad and [Tool]Feedback, showing the student perspective and the feedback process.
+      <strong>Video 1.</strong> Demonstration of a walkthrough through a moodle course with [Tool]Pad and [Tool]Feedback.
     </figcaption>
   </figure>
 </section>
@@ -94,7 +94,7 @@ The following figures illustrate the collaborative editor in use, with structure
       </div>
     </div>
     <figcaption>
-      <strong>Video 1.</strong> Walkthrough of [Tool]Pad's core features (currently in German). || Later demonstration of a walkthrough through a moodle course with [Tool]Pad and [Tool]Feedback, showing the student perspective and the feedback process.
+      <strong>Video 1.</strong> Walkthrough of [Tool]Pad's core features.
     </figcaption>
   </figure>
 </section>
@@ -157,7 +157,7 @@ The following figures illustrate the collaborative editor in use, with structure
       </div>
     </div>
     <figcaption>
-      <strong>Video 1.</strong> Walkthrough of [Tool]Feedback's core features. || Later demonstration of a walkthrough through a moodle course with [Tool]Pad and [Tool]Feedback, showing the student perspective and the feedback process.
+      <strong>Video 1.</strong> Walkthrough of [Tool]Feedback's core features.
     </figcaption>
   </figure>
 </section>
