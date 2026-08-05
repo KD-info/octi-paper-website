@@ -18,9 +18,9 @@ title: Demonstration Website
 
 <section class="figure-grid" aria-label="System overview figure">
   <figure class="figure-card figure-wide">
-    <img src="{{ '/assets/images/general/system-overview.png' | relative_url }}" alt="Placeholder figure: [Tool] system overview" loading="lazy" />
+    <img src="{{ '/assets/images/general/octi-workflow-current.png' | relative_url }}" alt="Placeholder figure: [Tool] system overview" loading="lazy" />
     <figcaption>
-      <strong>Figure 1.</strong> Overview of [Tool]’s Moodle integration and data flow. The figure illustrates the two components, [Tool]Pad and [Tool]Feedback, and their integration into a Moodle course. The arrows indicate the flow of data from the collaborative writing activity to the feedback generation and analytics processes.
+      <strong>Figure 1.</strong> Overview of the current implementation of [Tool], including its Moodle integration and data flow. The figure illustrates the two components, [Tool]Pad and [Tool]Feedback, and their integration into a Moodle course. The arrows indicate the flow of data from the collaborative writing activity to the feedback generation and analytics processes.
     </figcaption>
   </figure>
 </section>
