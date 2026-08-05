@@ -31,7 +31,7 @@ title: Demonstration Website
 
 <section id="toolpad-feedback" class="figure-grid" aria-label="[Tool]Pad and [Tool]Feedback in Moodle figure and video">
   <figure class="figure-card figure-half">
-    <img src="{{ '/assets/images/general/toolpad-toolfeedback-moodle.png' | relative_url }}" alt="Placeholder figure: [Tool]Pad and [Tool]Feedback in Moodle" loading="lazy" />
+    <img src="{{ '/assets/images/general/moodle-tool.png' | relative_url }}" alt="Placeholder figure: [Tool]Pad and [Tool]Feedback in Moodle" loading="lazy" />
     <figcaption>
       <strong>Figure 2.</strong> Illustration of [Tool]Pad and [Tool]Feedback embedded within a Moodle course. The figure shows how learners access the collaborative writing activity through the LMS, while the feedback component provides scheduled guidance based on interaction traces.
     </figcaption>
