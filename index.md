@@ -37,8 +37,7 @@ Octi is designed to support both instructional use and research-oriented data co
     </figcaption>
   </figure>
   <figure class="figure-card figure-half video-card"
-        data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
-        data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
+        data-video-src="{{ '/assets/video/octipad-features-explained.mp4' | relative_url }}">
     <div class="video-thumb">
       <img src="{{ '/assets/images/general/octi-banner.png' | relative_url }}" alt="OctiPad walkthrough video thumbnail" />
       <div class="video-play-btn" aria-hidden="true">
@@ -84,8 +83,7 @@ The following figures illustrate the collaborative editor in use, with structure
 
 <section id="octipad-video" class="figure-grid figure-grid-solo" aria-label="OctiPad video">
   <figure class="figure-card video-card"
-          data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
-          data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
+          data-video-src="{{ '/assets/video/octipad-features-explained.mp4' | relative_url }}">
     <div class="video-thumb">
       <img src="{{ '/assets/video/octipad-banner.svg' | relative_url }}" alt="OctiPad walkthrough video thumbnail" />
       <div class="video-play-btn" aria-hidden="true">
@@ -148,8 +146,7 @@ OctiFeedback provides scheduled feedback aligned with collaborative processes. I
 
 <section id="octifeedback-video" class="figure-grid figure-grid-solo" aria-label="OctiFeedback video">
   <figure class="figure-card video-card"
-          data-video-src="{{ '/assets/video/octipad-explained-de.mp4' | relative_url }}"
-          data-video-track="{{ '/assets/video/octipad-explained-subtitles-de.vtt' | relative_url }}">
+          data-video-src="{{ '/assets/video/octipad-features-explained.mp4' | relative_url }}">
     <div class="video-thumb">
       <img src="{{ '/assets/images/octifeedback/octifeedback-banner.png' | relative_url }}" alt="OctiFeedback walkthrough video thumbnail" />
       <div class="video-play-btn" aria-hidden="true">
