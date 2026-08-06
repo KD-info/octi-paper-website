@@ -99,6 +99,9 @@
           lbVideo.load();
           lightbox.classList.add('is-video');
           lightbox.classList.add('active');
+          lbVideo.play().catch(function () {
+            // Ignore autoplay rejections; controls remain available for manual play.
+          });
           lbClose.focus();
         });
       });
