@@ -31,8 +31,12 @@ Keep the filenames and paths stable, and simply replace the placeholder files:
 
 You may replace SVG placeholders with PNG/JPG; if you do, update the file extension in `index.md` and `_layouts/default.html`.
 
-## Local preview (optional)
-GitHub Pages builds Jekyll automatically. For local preview you can use Docker to avoid Ruby setup:
+## Local preview
+GitHub Pages builds Jekyll automatically. For local preview, use one of the options below.
+
+### Option A: Docker (recommended when available)
+
+Run from the repository root:
 
 ```bash
 docker run --rm -it \
@@ -42,7 +46,40 @@ docker run --rm -it \
   jekyll serve --watch --force_polling --host 0.0.0.0
 ```
 
-Then open `http://localhost:4000`.
+If Docker shows a permission error for `/var/run/docker.sock`, your user is not in the `docker` group on that machine. Either request access from the system administrator or use Option B below.
+
+### Option B: No-sudo setup with Conda (works on restricted servers)
+
+Create a local environment and install Jekyll entirely in user space:
+
+```bash
+conda create -y -n jekyll-preview ruby
+conda install -y -n jekyll-preview -c conda-forge compilers make
+conda run -n jekyll-preview gem install bundler jekyll
+```
+
+Start the local server:
+
+```bash
+conda run --no-capture-output -n jekyll-preview \
+  jekyll serve --watch --force_polling --host 0.0.0.0 --port 4000
+```
+
+### Open the site locally
+
+With the current `_config.yml` (`baseurl: "/octi-paper-website"`), open:
+
+```text
+http://localhost:4000/octi-paper-website/
+```
+
+If `baseurl` is changed to an empty string, use:
+
+```text
+http://localhost:4000/
+```
+
+Stop the local server with `Ctrl+C`.
 
 ## GitHub Pages publishing
 For initial testing, you can publish from the repository root.
