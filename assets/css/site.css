@@ -289,6 +289,12 @@ li {
   grid-column: span 12;
 }
 
+.figure-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 @media (min-width: 860px) {
   .figure-card {
     grid-column: span 4;
@@ -299,6 +305,10 @@ li {
   }
 
   .figure-half {
+    grid-column: span 6;
+  }
+
+  .figure-stack {
     grid-column: span 6;
   }
 

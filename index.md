@@ -36,21 +36,39 @@ title: Demonstration Website
       <strong>Figure 2.</strong> Illustration of [Tool]Pad and [Tool]Feedback embedded within a Moodle course. The figure shows how learners access the collaborative writing activity through the LMS, while the feedback component provides scheduled guidance based on interaction traces.
     </figcaption>
   </figure>
-  <figure class="figure-card figure-half video-card"
-        data-video-src="{{ '/assets/video/toolpad-features-explained.mp4' | relative_url }}">
-    <div class="video-thumb">
-      <img src="{{ '/assets/images/general/tool-banner-placeholder.png' | relative_url }}" alt="[Tool]Pad walkthrough video thumbnail" />
-      <div class="video-play-btn" aria-hidden="true">
-        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56">
-          <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.52)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
-          <polygon points="33,25 60,40 33,55" fill="white"/>
-        </svg>
+  <div class="figure-stack figure-half">
+    <figure class="figure-card video-card"
+          data-video-src="{{ '/assets/video/tool-student.mp4' | relative_url }}">
+      <div class="video-thumb">
+        <img src="{{ '/assets/images/general/tool-banner-placeholder.png' | relative_url }}" alt="[Tool]Pad walkthrough video thumbnail" />
+        <div class="video-play-btn" aria-hidden="true">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+            <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.52)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+            <polygon points="33,25 60,40 33,55" fill="white"/>
+          </svg>
+        </div>
       </div>
-    </div>
-    <figcaption>
-      <strong>Video 1.</strong> Demonstration of a walkthrough through a moodle course with [Tool]Pad and [Tool]Feedback.
-    </figcaption>
-  </figure>
+      <figcaption>
+        <strong>Video 1.</strong> Demonstration of a walkthrough through a moodle course with [Tool]Pad and [Tool]Feedback from a student's perspective.
+      </figcaption>
+    </figure>
+
+    <figure class="figure-card video-card"
+          data-video-src="{{ '/assets/video/toolpad-features-explained.mp4' | relative_url }}">
+      <div class="video-thumb">
+        <img src="{{ '/assets/images/toolpad/toolpad-banner-placeholder.png' | relative_url }}" alt="[Tool]Pad features video thumbnail" />
+        <div class="video-play-btn" aria-hidden="true">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+            <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.52)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+            <polygon points="33,25 60,40 33,55" fill="white"/>
+          </svg>
+        </div>
+      </div>
+      <figcaption>
+        <strong>Video 2.</strong> Walkthrough of [Tool]Pad's core features.
+      </figcaption>
+    </figure>
+  </div>
 </section>
 
 
