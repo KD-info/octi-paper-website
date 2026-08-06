@@ -37,8 +37,8 @@ title: Demonstration Website
     </figcaption>
   </figure>
   <div class="figure-stack figure-half">
-    <figure class="figure-card video-card"
-          data-video-src="{{ '/assets/video/tool-student.mp4' | relative_url }}">
+        <figure class="figure-card video-card"
+          data-video-src="{{ '/assets/video/tool-student-1.mp4' | relative_url }}">
       <div class="video-thumb">
         <img src="{{ '/assets/images/general/tool-banner-placeholder.png' | relative_url }}" alt="[Tool]Pad walkthrough video thumbnail" />
         <div class="video-play-btn" aria-hidden="true">
@@ -53,8 +53,8 @@ title: Demonstration Website
       </figcaption>
     </figure>
 
-    <figure class="figure-card video-card"
-          data-video-src="{{ '/assets/video/toolpad-features-explained.mp4' | relative_url }}">
+        <figure class="figure-card video-card"
+          data-video-src="{{ '/assets/video/toolpad-features-explained-1.mp4' | relative_url }}">
       <div class="video-thumb">
         <img src="{{ '/assets/images/toolpad/toolpad-banner-placeholder.png' | relative_url }}" alt="[Tool]Pad features video thumbnail" />
         <div class="video-play-btn" aria-hidden="true">
@@ -100,8 +100,8 @@ The following figures illustrate the collaborative editor in use, with structure
 </section>
 
 <section id="toolpad-video" class="figure-grid figure-grid-solo" aria-label="[Tool]Pad video">
-  <figure class="figure-card video-card"
-          data-video-src="{{ '/assets/video/toolpad-features-explained.mp4' | relative_url }}">
+    <figure class="figure-card video-card"
+      data-video-src="{{ '/assets/video/toolpad-features-explained-1.mp4' | relative_url }}">
     <div class="video-thumb">
       <img src="{{ '/assets/images/toolpad/toolpad-banner-placeholder.png' | relative_url }}" alt="[Tool]Pad walkthrough video thumbnail" />
       <div class="video-play-btn" aria-hidden="true">
@@ -163,8 +163,8 @@ The following figures illustrate the collaborative editor in use, with structure
 </section>
 
 <section id="toolfeedback-video" class="figure-grid figure-grid-solo" aria-label="[Tool]Feedback video">
-  <figure class="figure-card video-card"
-          data-video-src="{{ '/assets/video/toolpad-features-explained.mp4' | relative_url }}">
+    <figure class="figure-card video-card"
+      data-video-src="{{ '/assets/video/toolpad-features-explained-1.mp4' | relative_url }}">
     <div class="video-thumb">
       <img src="{{ '/assets/images/toolfeedback/toolfeedback-banner-placeholder.png' | relative_url }}" alt="[Tool]Feedback walkthrough video thumbnail" />
       <div class="video-play-btn" aria-hidden="true">
